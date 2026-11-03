@@ -9,6 +9,7 @@
 #    ---------------------------------------------------------------------------
 
 service iop-hal-2-0 /vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
+    interface vendor.qti.hardware.iop@2.0::IIop default
     oneshot
     disabled
     class hal

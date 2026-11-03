@@ -4,7 +4,6 @@ service vaultkeeper /vendor/bin/vaultkeeperd
     user system
     group system
     disabled
-    oneshot
 
 service vaultkeeper_hal /vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
     class early_hal

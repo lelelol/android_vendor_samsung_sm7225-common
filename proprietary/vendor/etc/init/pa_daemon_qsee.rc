@@ -4,7 +4,6 @@ service proca /vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
     user system
     group system
     disabled
-    oneshot
 
 on late-fs
     wait_for_prop vendor.sys.qseecomd.enable true
